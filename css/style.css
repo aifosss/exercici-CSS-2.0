@@ -16,11 +16,18 @@
     font-weight: 800;
 }
 
+.container {
+  width: 1024px;
+  padding: 1.5em;
+}
+
+nav {
+  background-color: #61448C;
+}
 
 nav ul {
     list-style: none;
     font-size: 0;
-    background-color: #61448C;
 }
 
 nav li {
