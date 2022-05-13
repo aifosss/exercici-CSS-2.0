@@ -4,6 +4,13 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.header {
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+
 nav ul{
   list-style: none;
   font-size:0;
@@ -11,8 +18,9 @@ nav ul{
 }
 
 nav li{
-    display:inline-block;
+    display:inline-block
 }
+
 nav li a{
   font-size:1rem;
   display:inline-block;
@@ -21,4 +29,9 @@ nav li a{
   text-align:center;
   color:white;
   text-decoration:none;
+}
+
+nav li a:hover{
+  background-color: white;
+  color: #61448C;
 }
