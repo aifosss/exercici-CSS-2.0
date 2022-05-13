@@ -56,8 +56,14 @@ h1{
 h2{
     font-size: 2em;
     color: #4e4e4e;
+    margin-bottom: 1em;
 }
 
 .align-center{
     text-align: center;
+}
+
+section {
+  padding: 2em 1.5em;
+  line-height: 1.5em;
 }
