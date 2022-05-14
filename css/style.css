@@ -209,6 +209,25 @@ h3 {
     color: #FFFFFF;
 }
 
+.maps {
+    display: block;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1pxsolidblack;
+}
+
+.location {
+    display: flex;
+}
+
+.info {
+    flex: auto;
+    padding: auto;
+    height: auto;
+}
+
 button {
     padding: .5em .5em;
 }
