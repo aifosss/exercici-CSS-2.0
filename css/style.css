@@ -133,3 +133,9 @@ table {
   display: inline-block;
   margin: auto;
 }
+
+footer {
+    height: 80px;
+    background-color: #61448C;
+    text-align: right;
+}
