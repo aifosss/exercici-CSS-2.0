@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #F2F2F2;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -75,8 +79,8 @@ h3 span{
     text-align: center;
 }
 
-.lightGray-bg{
-    background-color: #F2F2F2;
+.white-bg{
+    background-color: #FFF;
 }
 
 section {
@@ -86,12 +90,18 @@ section {
   margin: auto;
 }
 
-section:nth-child(3){
-    background-color: #FFFFFF; 
-}
-
 .portafolio-imgs img{
     height: 200px;
     width: 32%;
     margin:  15px 1px;
+    transition: 1s;
+}
+
+.portafolio-imgs img:hover{
+    transform: rotate(20deg);
+}
+
+.rotate360:hover{
+    transform: rotate(360deg)!important;
+    border-radius: 50%;
 }
