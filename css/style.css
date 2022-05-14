@@ -134,6 +134,11 @@ table {
   margin: auto;
 }
 
+h4 {
+    font-size: large;
+    font-weight: normal;
+}
+
 footer p {
     display: block;
     height: 40px;
