@@ -133,3 +133,17 @@ table {
   display: inline-block;
   margin: auto;
 }
+
+footer p {
+    display: block;
+    height: 40px;
+    background-color: #61448C;
+    font-size: small;
+    text-align: right;
+    color: #FFFFFF;
+    padding: 1em 1em;
+}
+
+footer p a {
+    color: #FFFFFF;
+}
