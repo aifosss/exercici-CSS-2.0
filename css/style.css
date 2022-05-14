@@ -139,6 +139,19 @@ h4 {
     font-weight: normal;
 }
 
+#email {
+    background-color: #61448C;
+    background-image: url("../img/map-image.png");
+}
+
+h3 {
+    color: #FFFFFF;
+}
+
+button {
+    padding: .5em .5em;
+}
+
 footer p {
     display: block;
     height: 40px;
