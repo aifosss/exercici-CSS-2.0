@@ -117,6 +117,7 @@ section {
 .rotate360:hover{
     transform: rotate(360deg)!important;
     border-radius: 50%;
+}
 
 section:nth-child(3) {
   background-color: #FFFFFF;
